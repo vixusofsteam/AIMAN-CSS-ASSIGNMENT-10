@@ -26,21 +26,14 @@ img {
     bottom: 0;
 }
 
-h1, h2 {
+h1 {
     color: #ececec;
     font-family: system-ui;
     font-weight: bold;
     text-align: center;
     text-shadow: 0px 2px #eb5600;
-}
-
-h1 {
     font-size: 4rem;
     margin-top: 50vh;
-}
-
-h2 {
-    font-size: 1.5rem;
 }
 
 .fa-facebook {
@@ -64,19 +57,19 @@ h2 {
 }
 
 .smicons {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
-.smicons a {
+.smicons > a {
     color: #fff;
     line-height: 30px;
     font-size: 30px;
-    margin: 0 5px;
+    margin: 3px;
     text-decoration: none;
 }
 
-.smicons a i {
+.smicons > a > i {
     line-height: 30px;
     border: 4px solid #ececec;
     padding: 5px;
@@ -86,8 +79,7 @@ h2 {
     transform: scale(1);
 }
 
-.smicons a:hover i {
-    box-shadow: 0px 0px 150px #000000;
+.smicons > a:hover > i {
     border: 4px solid #265787;
     border-radius: 30px;
     padding: 5px;
